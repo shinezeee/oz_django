@@ -37,7 +37,7 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL curl -sSL https://install.python-poetry.org | POETRY_VERSION=2.0.1 python3 - 
+          curl -sSL https://install.python-poetry.org | POETRY_VERSION=2.0.1 python3 - 
           echo "${HOME}/.local/bin" >> $GITHUB_PATH
 
       - name: Install dependencies
