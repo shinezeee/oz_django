@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 # 사용자
 class User(models.Model):
     name = models.CharField(max_length=50)
